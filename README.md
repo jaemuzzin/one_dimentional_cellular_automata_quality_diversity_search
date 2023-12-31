@@ -1,0 +1,1 @@
+# one_dimentional_cellular_automata_quality_diversity_search
