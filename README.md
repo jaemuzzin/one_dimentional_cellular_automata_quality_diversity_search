@@ -1,4 +1,4 @@
-# one_dimentional_cellular_automata_quality_diversity_search
+# Finding Artificial Life With Quality-Diversity Search
 
 Finds the optimal solution for Rule 37 to maximize the height of the pattern on a 256 pixel wide space.
 
