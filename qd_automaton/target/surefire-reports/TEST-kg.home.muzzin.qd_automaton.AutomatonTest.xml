@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="kg.home.muzzin.qd_automaton.AutomatonTest" time="0.076" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jae\Documents\qd_automaton\target\test-classes;C:\Users\jae\Documents\qd_automaton\target\classes;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\jae\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jae\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jae\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\jae\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\jae\AppData\Local\Temp\surefire776115403225113241\surefirebooter-20231230162627429_3.jar C:\Users\jae\AppData\Local\Temp\surefire776115403225113241 2023-12-30T16-26-27_252-jvmRun1 surefire-20231230162627429_1tmp surefire_0-20231230162627429_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="kg.home.muzzin.qd_automaton.AutomatonTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\jae\Documents\qd_automaton\target\test-classes;C:\Users\jae\Documents\qd_automaton\target\classes;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\jae\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jae\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jae\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\jae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\jae\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jae"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jae\Documents\qd_automaton"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jae\AppData\Local\Temp\surefire776115403225113241\surefirebooter-20231230162627429_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+7-LTS"/>
+    <property name="user.name" value="jae"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-8035246"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-18\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\jae\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\jae\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\jae\Documents\qd_automaton"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Inkscape\bin;C:\Program Files\Git\cmd;C:\Users\jae\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.8+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTimeStep" classname="kg.home.muzzin.qd_automaton.AutomatonTest" time="0.037">
+    <system-out><![CDATA[████████████░██░░░░██████
+░░░░░░░░░░░████░░░██░░░░░
+░░░░░░░░░░██░░█░░███░░░░░
+░░░░░░░░░███░██░██░█░░░░░
+░░░░░░░░██░█████████░░░░░
+░░░░░░░█████░░░░░░░█░░░░░
+░░░░░░██░░░█░░░░░░██░░░░░
+░░░░░███░░██░░░░░███░░░░░
+░░░░██░█░███░░░░██░█░░░░░
+░░░███████░█░░░█████░░░░░
+░░██░░░░░███░░██░░░█░░░░░
+░███░░░░██░█░███░░██░░░░░
+██░█░░░███████░█░███░░░░░
+████░░██░░░░░█████░█░░░░█
+░░░█░███░░░░██░░░███░░░██
+░░████░█░░░███░░██░█░░███
+░██░░███░░██░█░█████░██░█
+███░██░█░███████░░░██████
+░░████████░░░░░█░░██░░░░░
+░██░░░░░░█░░░░██░███░░░░░
+███░░░░░██░░░█████░█░░░░░
+█░█░░░░███░░██░░░███░░░░█
+███░░░██░█░███░░██░█░░░██
+░░█░░███████░█░█████░░██░
+░██░██░░░░░█████░░░█░███░
+]]></system-out>
+  </testcase>
+  <testcase name="testTimeStep2" classname="kg.home.muzzin.qd_automaton.AutomatonTest" time="0.009">
+    <system-out><![CDATA[████░█░█░░░░░░█████░░░░░█░██░░░██░█░░░░░░░█░░██░░██░░░░░██░░░░░██░░██░░░░░░███░█
+░░░░████░████░░░░░░░███░██░░░█░░░██░█████░█░░░░░░░░░███░░░░███░░░░░░░░████░░░░█░
+███░░░░░█░░░░░█████░░░░█░░░█░█░█░░░█░░░░░██░███████░░░░░██░░░░░██████░░░░░░██░█░
+░░░░███░█░███░░░░░░░██░█░█░█████░█░█░███░░░█░░░░░░░░███░░░░███░░░░░░░░████░░░███
+░██░░░░███░░░░█████░░░█████░░░░░█████░░░░█░█░██████░░░░░██░░░░░██████░░░░░░█░░░░
+░░░░██░░░░░██░░░░░░░█░░░░░░░███░░░░░░░██░████░░░░░░░███░░░░███░░░░░░░░████░█░███
+░██░░░░███░░░░█████░█░█████░░░░░█████░░░█░░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░░░█░█░███░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░█████░████░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░░█░░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░████░█░███░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+░░░░██░░░░░██░░░░░░███░░░░░░███░░░░░███░░░░██░░░░░░░███░░░░███░░░░░░░░███░░░░░██
+░██░░░░███░░░░████░░░░░████░░░░░███░░░░░██░░░░█████░░░░░██░░░░░██████░░░░░███░░░
+]]></system-out>
+  </testcase>
+</testsuite>
