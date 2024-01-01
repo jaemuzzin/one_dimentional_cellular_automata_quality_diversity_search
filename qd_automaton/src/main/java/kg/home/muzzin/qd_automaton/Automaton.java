@@ -1,11 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package kg.home.muzzin.qd_automaton;
 
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.IntStream;
+import javax.imageio.ImageIO;
 
 /**
  *
@@ -86,5 +88,19 @@ public class Automaton {
         }
         sb.append(System.lineSeparator());
         return sb.toString();
+    }
+    
+    public void export(String filename) throws IOException{
+        BufferedImage img = new BufferedImage(width, history.size(), BufferedImage.TYPE_INT_RGB);
+        var g = img.createGraphics();
+        g.setColor(Color.white);
+        g.fillRect(0, 0, width, history.size());
+        IntStream.range(0, history.size()).forEach(h -> {
+            for (int i = 0; i < width; i++) {
+                g.setColor(history.get(h)[i] ? Color.black : Color.white);
+                g.drawRect(i, h, 1, 1);
+            }
+        });
+        ImageIO.write(img, "PNG", new File(filename));
     }
 }
